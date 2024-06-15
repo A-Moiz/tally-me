@@ -7,62 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96967EDE2C1E02DE004F43B6 /* Tally_MeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96967EDD2C1E02DE004F43B6 /* Tally_MeApp.swift */; };
-		96967EE02C1E02DE004F43B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96967EDF2C1E02DE004F43B6 /* ContentView.swift */; };
-		96967EE22C1E02DF004F43B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96967EE12C1E02DF004F43B6 /* Assets.xcassets */; };
-		96967EE62C1E02DF004F43B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96967EE52C1E02DF004F43B6 /* Preview Assets.xcassets */; };
-		96967EF02C1E02E0004F43B6 /* Tally_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96967EEF2C1E02E0004F43B6 /* Tally_MeTests.swift */; };
-		96967EFA2C1E02E0004F43B6 /* Tally_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96967EF92C1E02E0004F43B6 /* Tally_MeUITests.swift */; };
-		96967EFC2C1E02E0004F43B6 /* Tally_MeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96967EFB2C1E02E0004F43B6 /* Tally_MeUITestsLaunchTests.swift */; };
+		96B9C1622C1E03F4001E6854 /* Tally_MeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9C1612C1E03F4001E6854 /* Tally_MeApp.swift */; };
+		96B9C1642C1E03F4001E6854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9C1632C1E03F4001E6854 /* ContentView.swift */; };
+		96B9C1662C1E03F5001E6854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B9C1652C1E03F5001E6854 /* Assets.xcassets */; };
+		96B9C16A2C1E03F5001E6854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B9C1692C1E03F5001E6854 /* Preview Assets.xcassets */; };
+		96B9C1782C1E0536001E6854 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9C1772C1E0536001E6854 /* LoginView.swift */; };
+		96B9C17A2C1E0628001E6854 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9C1792C1E0628001E6854 /* InputView.swift */; };
+		96B9C17C2C1E0BD7001E6854 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9C17B2C1E0BD7001E6854 /* RegistrationView.swift */; };
+		96B9C17E2C1E0EBA001E6854 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9C17D2C1E0EBA001E6854 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		96967EEC2C1E02E0004F43B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96967ED22C1E02DE004F43B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96967ED92C1E02DE004F43B6;
-			remoteInfo = "Tally Me";
-		};
-		96967EF62C1E02E0004F43B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 96967ED22C1E02DE004F43B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96967ED92C1E02DE004F43B6;
-			remoteInfo = "Tally Me";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		96967EDA2C1E02DE004F43B6 /* Tally Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tally Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96967EDD2C1E02DE004F43B6 /* Tally_MeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_MeApp.swift; sourceTree = "<group>"; };
-		96967EDF2C1E02DE004F43B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		96967EE12C1E02DF004F43B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96967EE32C1E02DF004F43B6 /* Tally_Me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tally_Me.entitlements; sourceTree = "<group>"; };
-		96967EE52C1E02DF004F43B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		96967EEB2C1E02E0004F43B6 /* Tally MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tally MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96967EEF2C1E02E0004F43B6 /* Tally_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_MeTests.swift; sourceTree = "<group>"; };
-		96967EF52C1E02E0004F43B6 /* Tally MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tally MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96967EF92C1E02E0004F43B6 /* Tally_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_MeUITests.swift; sourceTree = "<group>"; };
-		96967EFB2C1E02E0004F43B6 /* Tally_MeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_MeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96B9C15E2C1E03F4001E6854 /* Tally Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tally Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B9C1612C1E03F4001E6854 /* Tally_MeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_MeApp.swift; sourceTree = "<group>"; };
+		96B9C1632C1E03F4001E6854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96B9C1652C1E03F5001E6854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96B9C1672C1E03F5001E6854 /* Tally_Me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tally_Me.entitlements; sourceTree = "<group>"; };
+		96B9C1692C1E03F5001E6854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96B9C1772C1E0536001E6854 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		96B9C1792C1E0628001E6854 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		96B9C17B2C1E0BD7001E6854 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		96B9C17D2C1E0EBA001E6854 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96967ED72C1E02DE004F43B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96967EE82C1E02E0004F43B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96967EF22C1E02E0004F43B6 /* Frameworks */ = {
+		96B9C15B2C1E03F4001E6854 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,73 +41,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96967ED12C1E02DE004F43B6 = {
+		96B9C1552C1E03F4001E6854 = {
 			isa = PBXGroup;
 			children = (
-				96967EDC2C1E02DE004F43B6 /* Tally Me */,
-				96967EEE2C1E02E0004F43B6 /* Tally MeTests */,
-				96967EF82C1E02E0004F43B6 /* Tally MeUITests */,
-				96967EDB2C1E02DE004F43B6 /* Products */,
+				96B9C1602C1E03F4001E6854 /* Tally Me */,
+				96B9C15F2C1E03F4001E6854 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		96967EDB2C1E02DE004F43B6 /* Products */ = {
+		96B9C15F2C1E03F4001E6854 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96967EDA2C1E02DE004F43B6 /* Tally Me.app */,
-				96967EEB2C1E02E0004F43B6 /* Tally MeTests.xctest */,
-				96967EF52C1E02E0004F43B6 /* Tally MeUITests.xctest */,
+				96B9C15E2C1E03F4001E6854 /* Tally Me.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96967EDC2C1E02DE004F43B6 /* Tally Me */ = {
+		96B9C1602C1E03F4001E6854 /* Tally Me */ = {
 			isa = PBXGroup;
 			children = (
-				96967EDD2C1E02DE004F43B6 /* Tally_MeApp.swift */,
-				96967EDF2C1E02DE004F43B6 /* ContentView.swift */,
-				96967EE12C1E02DF004F43B6 /* Assets.xcassets */,
-				96967EE32C1E02DF004F43B6 /* Tally_Me.entitlements */,
-				96967EE42C1E02DF004F43B6 /* Preview Content */,
+				96B9C1732C1E0438001E6854 /* Model */,
+				96B9C1722C1E0431001E6854 /* Core */,
+				96B9C1712C1E042B001E6854 /* Components */,
+				96B9C1702C1E041B001E6854 /* App */,
+				96B9C1652C1E03F5001E6854 /* Assets.xcassets */,
+				96B9C1672C1E03F5001E6854 /* Tally_Me.entitlements */,
+				96B9C1682C1E03F5001E6854 /* Preview Content */,
 			);
 			path = "Tally Me";
 			sourceTree = "<group>";
 		};
-		96967EE42C1E02DF004F43B6 /* Preview Content */ = {
+		96B9C1682C1E03F5001E6854 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				96967EE52C1E02DF004F43B6 /* Preview Assets.xcassets */,
+				96B9C1692C1E03F5001E6854 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		96967EEE2C1E02E0004F43B6 /* Tally MeTests */ = {
+		96B9C1702C1E041B001E6854 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				96967EEF2C1E02E0004F43B6 /* Tally_MeTests.swift */,
+				96B9C1612C1E03F4001E6854 /* Tally_MeApp.swift */,
 			);
-			path = "Tally MeTests";
+			path = App;
 			sourceTree = "<group>";
 		};
-		96967EF82C1E02E0004F43B6 /* Tally MeUITests */ = {
+		96B9C1712C1E042B001E6854 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				96967EF92C1E02E0004F43B6 /* Tally_MeUITests.swift */,
-				96967EFB2C1E02E0004F43B6 /* Tally_MeUITestsLaunchTests.swift */,
+				96B9C1792C1E0628001E6854 /* InputView.swift */,
 			);
-			path = "Tally MeUITests";
+			path = Components;
+			sourceTree = "<group>";
+		};
+		96B9C1722C1E0431001E6854 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				96B9C1762C1E0509001E6854 /* Authentication */,
+				96B9C1752C1E0505001E6854 /* Profile */,
+				96B9C1742C1E04CD001E6854 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		96B9C1732C1E0438001E6854 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96B9C1742C1E04CD001E6854 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				96B9C1632C1E03F4001E6854 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		96B9C1752C1E0505001E6854 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				96B9C17D2C1E0EBA001E6854 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		96B9C1762C1E0509001E6854 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				96B9C1772C1E0536001E6854 /* LoginView.swift */,
+				96B9C17B2C1E0BD7001E6854 /* RegistrationView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96967ED92C1E02DE004F43B6 /* Tally Me */ = {
+		96B9C15D2C1E03F4001E6854 /* Tally Me */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96967EFF2C1E02E0004F43B6 /* Build configuration list for PBXNativeTarget "Tally Me" */;
+			buildConfigurationList = 96B9C16D2C1E03F5001E6854 /* Build configuration list for PBXNativeTarget "Tally Me" */;
 			buildPhases = (
-				96967ED62C1E02DE004F43B6 /* Sources */,
-				96967ED72C1E02DE004F43B6 /* Frameworks */,
-				96967ED82C1E02DE004F43B6 /* Resources */,
+				96B9C15A2C1E03F4001E6854 /* Sources */,
+				96B9C15B2C1E03F4001E6854 /* Frameworks */,
+				96B9C15C2C1E03F4001E6854 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,69 +154,25 @@
 			);
 			name = "Tally Me";
 			productName = "Tally Me";
-			productReference = 96967EDA2C1E02DE004F43B6 /* Tally Me.app */;
+			productReference = 96B9C15E2C1E03F4001E6854 /* Tally Me.app */;
 			productType = "com.apple.product-type.application";
-		};
-		96967EEA2C1E02E0004F43B6 /* Tally MeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96967F022C1E02E0004F43B6 /* Build configuration list for PBXNativeTarget "Tally MeTests" */;
-			buildPhases = (
-				96967EE72C1E02E0004F43B6 /* Sources */,
-				96967EE82C1E02E0004F43B6 /* Frameworks */,
-				96967EE92C1E02E0004F43B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				96967EED2C1E02E0004F43B6 /* PBXTargetDependency */,
-			);
-			name = "Tally MeTests";
-			productName = "Tally MeTests";
-			productReference = 96967EEB2C1E02E0004F43B6 /* Tally MeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		96967EF42C1E02E0004F43B6 /* Tally MeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96967F052C1E02E0004F43B6 /* Build configuration list for PBXNativeTarget "Tally MeUITests" */;
-			buildPhases = (
-				96967EF12C1E02E0004F43B6 /* Sources */,
-				96967EF22C1E02E0004F43B6 /* Frameworks */,
-				96967EF32C1E02E0004F43B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				96967EF72C1E02E0004F43B6 /* PBXTargetDependency */,
-			);
-			name = "Tally MeUITests";
-			productName = "Tally MeUITests";
-			productReference = 96967EF52C1E02E0004F43B6 /* Tally MeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		96967ED22C1E02DE004F43B6 /* Project object */ = {
+		96B9C1562C1E03F4001E6854 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					96967ED92C1E02DE004F43B6 = {
+					96B9C15D2C1E03F4001E6854 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					96967EEA2C1E02E0004F43B6 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 96967ED92C1E02DE004F43B6;
-					};
-					96967EF42C1E02E0004F43B6 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 96967ED92C1E02DE004F43B6;
 					};
 				};
 			};
-			buildConfigurationList = 96967ED52C1E02DE004F43B6 /* Build configuration list for PBXProject "Tally Me" */;
+			buildConfigurationList = 96B9C1592C1E03F4001E6854 /* Build configuration list for PBXProject "Tally Me" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,88 +180,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 96967ED12C1E02DE004F43B6;
-			productRefGroup = 96967EDB2C1E02DE004F43B6 /* Products */;
+			mainGroup = 96B9C1552C1E03F4001E6854;
+			productRefGroup = 96B9C15F2C1E03F4001E6854 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96967ED92C1E02DE004F43B6 /* Tally Me */,
-				96967EEA2C1E02E0004F43B6 /* Tally MeTests */,
-				96967EF42C1E02E0004F43B6 /* Tally MeUITests */,
+				96B9C15D2C1E03F4001E6854 /* Tally Me */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		96967ED82C1E02DE004F43B6 /* Resources */ = {
+		96B9C15C2C1E03F4001E6854 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96967EE62C1E02DF004F43B6 /* Preview Assets.xcassets in Resources */,
-				96967EE22C1E02DF004F43B6 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96967EE92C1E02E0004F43B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96967EF32C1E02E0004F43B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				96B9C16A2C1E03F5001E6854 /* Preview Assets.xcassets in Resources */,
+				96B9C1662C1E03F5001E6854 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		96967ED62C1E02DE004F43B6 /* Sources */ = {
+		96B9C15A2C1E03F4001E6854 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96967EE02C1E02DE004F43B6 /* ContentView.swift in Sources */,
-				96967EDE2C1E02DE004F43B6 /* Tally_MeApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96967EE72C1E02E0004F43B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96967EF02C1E02E0004F43B6 /* Tally_MeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96967EF12C1E02E0004F43B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96967EFC2C1E02E0004F43B6 /* Tally_MeUITestsLaunchTests.swift in Sources */,
-				96967EFA2C1E02E0004F43B6 /* Tally_MeUITests.swift in Sources */,
+				96B9C1782C1E0536001E6854 /* LoginView.swift in Sources */,
+				96B9C17A2C1E0628001E6854 /* InputView.swift in Sources */,
+				96B9C1642C1E03F4001E6854 /* ContentView.swift in Sources */,
+				96B9C1622C1E03F4001E6854 /* Tally_MeApp.swift in Sources */,
+				96B9C17E2C1E0EBA001E6854 /* ProfileView.swift in Sources */,
+				96B9C17C2C1E0BD7001E6854 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		96967EED2C1E02E0004F43B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96967ED92C1E02DE004F43B6 /* Tally Me */;
-			targetProxy = 96967EEC2C1E02E0004F43B6 /* PBXContainerItemProxy */;
-		};
-		96967EF72C1E02E0004F43B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 96967ED92C1E02DE004F43B6 /* Tally Me */;
-			targetProxy = 96967EF62C1E02E0004F43B6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		96967EFD2C1E02E0004F43B6 /* Debug */ = {
+		96B9C16B2C1E03F5001E6854 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +280,7 @@
 			};
 			name = Debug;
 		};
-		96967EFE2C1E02E0004F43B6 /* Release */ = {
+		96B9C16C2C1E03F5001E6854 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,7 +333,7 @@
 			};
 			name = Release;
 		};
-		96967F002C1E02E0004F43B6 /* Debug */ = {
+		96B9C16E2C1E03F5001E6854 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -449,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		96967F012C1E02E0004F43B6 /* Release */ = {
+		96B9C16F2C1E03F5001E6854 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -484,139 +406,31 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		96967F032C1E02E0004F43B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N8K7U35P26;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abdul.Tally-MeTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tally Me.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tally Me";
-			};
-			name = Debug;
-		};
-		96967F042C1E02E0004F43B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N8K7U35P26;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abdul.Tally-MeTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tally Me.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tally Me";
-			};
-			name = Release;
-		};
-		96967F062C1E02E0004F43B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N8K7U35P26;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abdul.Tally-MeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Tally Me";
-			};
-			name = Debug;
-		};
-		96967F072C1E02E0004F43B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N8K7U35P26;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.abdul.Tally-MeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Tally Me";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96967ED52C1E02DE004F43B6 /* Build configuration list for PBXProject "Tally Me" */ = {
+		96B9C1592C1E03F4001E6854 /* Build configuration list for PBXProject "Tally Me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96967EFD2C1E02E0004F43B6 /* Debug */,
-				96967EFE2C1E02E0004F43B6 /* Release */,
+				96B9C16B2C1E03F5001E6854 /* Debug */,
+				96B9C16C2C1E03F5001E6854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96967EFF2C1E02E0004F43B6 /* Build configuration list for PBXNativeTarget "Tally Me" */ = {
+		96B9C16D2C1E03F5001E6854 /* Build configuration list for PBXNativeTarget "Tally Me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96967F002C1E02E0004F43B6 /* Debug */,
-				96967F012C1E02E0004F43B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96967F022C1E02E0004F43B6 /* Build configuration list for PBXNativeTarget "Tally MeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96967F032C1E02E0004F43B6 /* Debug */,
-				96967F042C1E02E0004F43B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96967F052C1E02E0004F43B6 /* Build configuration list for PBXNativeTarget "Tally MeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96967F062C1E02E0004F43B6 /* Debug */,
-				96967F072C1E02E0004F43B6 /* Release */,
+				96B9C16E2C1E03F5001E6854 /* Debug */,
+				96B9C16F2C1E03F5001E6854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 96967ED22C1E02DE004F43B6 /* Project object */;
+	rootObject = 96B9C1562C1E03F4001E6854 /* Project object */;
 }
