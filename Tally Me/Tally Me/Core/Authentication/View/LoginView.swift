@@ -11,6 +11,7 @@ struct LoginView: View {
     @State private var email = ""
     @State private var password = ""
     @Environment(\.colorScheme) var colourScheme
+    @EnvironmentObject var viewModel: AuthViewModel
     
     var body: some View {
         NavigationStack {
@@ -35,21 +36,21 @@ struct LoginView: View {
                 
                 // sign in button
                 Button {
-                    print("Log user in")
+                    Task { try await viewModel.signIn(withEmail: email, password: password) }
                 } label: {
                     HStack {
                         Text("Sign in")
                             .fontWeight(.semibold)
                         Image(systemName: "arrow.right")
                     }
-                    //.foregroundStyle(colourScheme == .dark ? .white : .black)
                     .foregroundStyle(.orange)
                     .frame(width: UIScreen.main.bounds.width - 32, height: 48)
                 }
-                //.background(Color(.systemOrange))
                 .background(colourScheme == .dark ? .white : .black)
                 .cornerRadius(10)
                 .padding(.top, 24)
+                .disabled(!formIsValid)
+                .opacity(formIsValid ? 1.0 : 0.5)
                 
                 Spacer()
                 
@@ -75,6 +76,12 @@ struct LoginView: View {
             }
             .navigationTitle("Welcome back")
         }
+    }
+}
+
+extension LoginView: AuthenticationFormProtocol {
+    var formIsValid: Bool {
+        return !email.isEmpty && email.contains("@")  && (email.contains(".com") || email.contains(".co.uk") || email.contains(".ac.uk") || email.contains(".org") || email.contains(".net")) && !password.isEmpty && password.count > 5
     }
 }
 
