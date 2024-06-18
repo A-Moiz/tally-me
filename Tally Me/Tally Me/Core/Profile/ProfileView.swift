@@ -19,7 +19,7 @@ struct ProfileView: View {
                         .fontWeight(.semibold)
                         .foregroundStyle((colourScheme == .dark ? .white : .black))
                         .frame(width: 72, height: 72)
-                        .background(Color(.systemGray))
+                        .background(Color(.systemGray3))
                         .clipShape(Circle())
                     
                     VStack(alignment: .leading, spacing: 4) {
