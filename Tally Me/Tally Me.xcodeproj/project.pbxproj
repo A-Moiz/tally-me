@@ -15,6 +15,8 @@
 		960E968E2C22062C00099F65 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 960E968D2C22062C00099F65 /* FirebaseFirestoreSwift */; };
 		960E96902C22062C00099F65 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 960E968F2C22062C00099F65 /* FirebaseStorage */; };
 		960E96942C22069300099F65 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960E96932C22069300099F65 /* AuthViewModel.swift */; };
+		9637D2712C22FF4E00003762 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9637D2702C22FF4E00003762 /* Tab.swift */; };
+		9637D2762C2300AE00003762 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9637D2752C2300AE00003762 /* TabBarView.swift */; };
 		96B9C1622C1E03F4001E6854 /* Tally_MeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9C1612C1E03F4001E6854 /* Tally_MeApp.swift */; };
 		96B9C1642C1E03F4001E6854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B9C1632C1E03F4001E6854 /* ContentView.swift */; };
 		96B9C1662C1E03F5001E6854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B9C1652C1E03F5001E6854 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		960E96842C2203BD00099F65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		960E96862C22059F00099F65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		960E96932C22069300099F65 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9637D2702C22FF4E00003762 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		9637D2752C2300AE00003762 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		96B9C15E2C1E03F4001E6854 /* Tally Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tally Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B9C1612C1E03F4001E6854 /* Tally_MeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_MeApp.swift; sourceTree = "<group>"; };
 		96B9C1632C1E03F4001E6854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		9637D2722C23008E00003762 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				9637D2752C2300AE00003762 /* TabBarView.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
 		96B9C1552C1E03F4001E6854 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +105,7 @@
 		96B9C1602C1E03F4001E6854 /* Tally Me */ = {
 			isa = PBXGroup;
 			children = (
+				9637D2722C23008E00003762 /* Tab Bar */,
 				96B9C1732C1E0438001E6854 /* Model */,
 				96B9C1722C1E0431001E6854 /* Core */,
 				96B9C1712C1E042B001E6854 /* Components */,
@@ -144,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				960E96842C2203BD00099F65 /* User.swift */,
+				9637D2702C22FF4E00003762 /* Tab.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -258,8 +272,10 @@
 				96B9C1642C1E03F4001E6854 /* ContentView.swift in Sources */,
 				96B9C1622C1E03F4001E6854 /* Tally_MeApp.swift in Sources */,
 				960E96852C2203BD00099F65 /* User.swift in Sources */,
+				9637D2762C2300AE00003762 /* TabBarView.swift in Sources */,
 				96B9C17E2C1E0EBA001E6854 /* ProfileView.swift in Sources */,
 				96B9C17C2C1E0BD7001E6854 /* RegistrationView.swift in Sources */,
+				9637D2712C22FF4E00003762 /* Tab.swift in Sources */,
 				960E96832C22021000099F65 /* SettingsRowView.swift in Sources */,
 				960E96942C22069300099F65 /* AuthViewModel.swift in Sources */,
 			);
